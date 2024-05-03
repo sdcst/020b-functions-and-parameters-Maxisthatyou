@@ -2,9 +2,8 @@
 
 def sum(a,b):
     x = a + b
+    x = round(x, 1)
     return x
-
-
 
 if __name__ == "__main__":
     print("This is my program")
@@ -20,4 +19,3 @@ if __name__ == "__main__":
     assert sum(5,-32) == -27
     assert sum(5,2.5) == 7.5
     assert sum(5.1,2.3) == 7.4
-    
